@@ -1,0 +1,17 @@
+{
+  "name": "ปฏิทินล้นเกวียน – วางแผนปลูกข้าว",
+  "short_name": "ปฏิทินข้าว",
+  "description": "วางแผนวันปลูก ใส่ปุ๋ย จัดการน้ำ และวันเก็บเกี่ยวข้าวนาปรัง หลายแปลง",
+  "start_url": "./#home",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f4ee",
+  "theme_color": "#2e6b34",
+  "lang": "th",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

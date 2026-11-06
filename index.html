@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#2e6b34">
+<title>ปฏิทินล้นเกวียน</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="top no-print">
+  <a href="#home" class="brand">🌾 ปฏิทินล้นเกวียน</a>
+  <div class="links">
+    <a href="#home" data-nav="home">แปลงของฉัน</a>
+    <a href="#plan" data-nav="plan">วางแผน</a>
+    <a href="#settings" data-nav="settings">ตั้งค่า</a>
+  </div>
+</nav>
+<main id="app"></main>
+<script src="data.js"></script>
+<script src="app.js"></script>
+<script>
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
+</script>
+</body>
+</html>
